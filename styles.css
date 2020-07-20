@@ -1,3 +1,7 @@
+ul{
+  list-style-type: none;
+  padding: 0 0 0 10px;
+}
 .container {
     display: block;
     width: 400px;
@@ -8,11 +12,6 @@
     border: 2px solid #349CAE;
     border-radius: 5px;
 }
-ul{
-    list-style-type: none;
-    padding: 0 0 0 10px;
-  }
-
 .weatherParam {
     text-align: right;
 }
@@ -43,4 +42,10 @@ ul{
 .currTemperature{
   position: relative;
   font-size: 50px;
+}
+.signature {
+  display: block;
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
