@@ -1,0 +1,46 @@
+body {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 15px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border: 2px solid #349CAE;
+    border-radius: 5px;
+}
+ul{
+    list-style-type: none;
+    padding: 0 0 0 10px;
+  }
+
+.weatherParam {
+    text-align: right;
+}
+.weatherData {
+    text-align: left;
+}
+.col-half-offset{
+    margin-left:3.8%
+}
+.firstOffset {
+    margin-left: 1%;
+}
+.day {
+  border:1px solid #349CAE;
+  border-radius: 5px;
+}
+.mainImage {
+  color: #FE9800;
+ font-size: 80px;
+ position: relative;
+ left: 2px;
+ top: 10px;
+}
+.bild {
+  position: relative;
+ left: 6px;
+}
+.currTemperature{
+  position: relative;
+  font-size: 50px;
+}
